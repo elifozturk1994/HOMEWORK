@@ -1,10 +1,11 @@
-﻿namespace ödev02;
+﻿namespace ödev03;
 
 class Program
 {
     static void Main(string[] args)
     {
-        double sayi1 = 10.5;
-        System.Console.WriteLine(sayi1* sayi1);
+        string isim = "elif";
+        int yas = 28;
+        System.Console.WriteLine("benim adım " + isim+" ve ben " +yas+" yaşındayım.");
     }
 }
