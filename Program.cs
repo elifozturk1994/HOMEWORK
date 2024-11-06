@@ -1,12 +1,11 @@
-﻿namespace ödev05;
+﻿namespace ödev06;
 
 class Program
 {
     static void Main(string[] args)
     {
-        bool yazi = true;
-        bool yazi2 = false;
-        System.Console.WriteLine(yazi);
-        System.Console.WriteLine(yazi2);
+        byte sayi = 255;
+        int sayi1 = Convert.ToInt32(sayi);
+        System.Console.WriteLine(sayi1);
     }
 }
