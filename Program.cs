@@ -1,11 +1,11 @@
-﻿namespace ödev03;
+﻿namespace ödev04;
 
 class Program
 {
     static void Main(string[] args)
     {
-        string isim = "elif";
-        int yas = 28;
-        System.Console.WriteLine("benim adım " + isim+" ve ben " +yas+" yaşındayım.");
+        char harf = 'D';
+        int askideger = Convert.ToInt32(harf);
+        System.Console.WriteLine(askideger);
     }
 }
